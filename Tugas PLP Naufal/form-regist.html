@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Registrasi</title>
+	<style>
+	body{
+		background-image: url(bgform.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		height: 100%;
+	}
+	.title{
+		text-align: center;
+		font-size: 2.5em;
+		color: #000;
+	}
+</style>
+</head>
+<body align="center">
+	<h1>FORM REGISTRASI</h1>
+	<br>
+<b>Nama: </b><input type="text" name="Nama" value="Nama Lengkap Anda" />
+<br>
+<br>
+<b>Password:</b><input type="Password" name="Password" />
+<br>
+<h3>Jenis kelamin :</h3>
+<input type="radio" name="Jenis_Kelamin" value="laki-laki" checked /><b>
+laki-laki</b>
+<input type="radio" name="Jenis_Kelamin" value="perempuan" /><b>
+perempuan</b>
+<br>
+<h3>Hobi:</h3>
+<input type="checkbox" name="Hobi_baca" checked /><b>Membaca Buku</b>
+	  <input type="checkbox" name="Hobi_nulis" /><b>Menulis</b>
+	  <input type="checkbox" name="Hobi_mancing" /><b>Memancing</b>
+<br>
+<h3>Asal kota:</h3>
+ <select name="asal_kota">
+ 	  <option value="Kota Jakarta">Jakarta</option>
+	  <option value="Kota Bandung">Bandung</option>
+	  <option value="Kota Semarang" selected>Malang</option>
+</select>
+<br>
+<h3>Program Studi</h3>
+<select name="program_studi">
+ 	  <option value="Teknik Industri">Teknik Industri</option>
+	  <option value="Teknik Elektro">Teknik Elektro</option>
+	  <option value="Sistem Informasi" selected>Sistem Informasi</option>
+</select>
+<br>
+<br>
+<h3>Komentar Anda:</h3>
+<textarea name="Komentar" rows="4" cols="20">Silahkan isi sesuai kata hati anda
+</textarea>
+<br>
+
+<input type="submit" name="mulai proses!">
+
+</body>
+</html>
